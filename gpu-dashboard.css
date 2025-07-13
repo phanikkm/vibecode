@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.dashboard {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+.gpu-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.gpu-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px;
+    flex: 1 1 200px;
+}
+.refresh-controls {
+    margin-top: 10px;
+    text-align: center;
+}
